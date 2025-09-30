@@ -28,12 +28,12 @@ h1, h2, h3, p, span, a {
   transform: scaleY(1.07); 
 }
 
-.nav-container{
-    border-bottom: solid 1px black;
-}
-
 a:active{
     color:black;
+}
+
+a:hover{
+    color: black;
 }
 
 .header{
@@ -56,16 +56,13 @@ a:active{
 .nav-container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: flex-end;
     height:100%;
-    padding-right: 20px;
+    justify-content: space-around;
+    padding-bottom:10px;
+    width:var(--page-margin);
+    border-bottom: solid 1px orange;
 }
-
-.nav-item{
-    margin-left:40px;
-}
-
 
 .home {
   display: flex;
@@ -255,8 +252,9 @@ a:active{
         margin:0px;
     }
     .nav-container{
-        width:100%;
-        justify-content: center;
+        align-self: center;
+        width:var(--page-margin);
+        justify-content: space-around;
         align-items: center;
         flex:1;
     }
