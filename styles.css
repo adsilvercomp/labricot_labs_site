@@ -60,6 +60,11 @@ a:active{
   overflow: hidden;
 }
 
+.partner-desktop-view{
+    display:inline-flex;
+    width:100%;
+    justify-content:space-between;
+}
 
 .outer-container{
     display:flex;
@@ -312,7 +317,7 @@ body{
 } */
 
 
-.partner-deskstop-view{
+.partner-desktop-view{
     display:none;
     background-color: red;
     width: 100%;
@@ -322,6 +327,7 @@ body{
 .partner-mobile-view{
     display:flex;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 
