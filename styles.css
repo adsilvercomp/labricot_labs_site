@@ -95,7 +95,6 @@ a:hover{
     justify-content: center;
     align-items: flex-start;
     flex:1;
-    /* height:100vh; */
 }
 
 .logo-container{
@@ -192,9 +191,21 @@ a:hover{
 
 .biography{
     display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.biography-image{
+    display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.biography-text{
+    display: flex;
+    align-items: center;
+    height: 200px;
 }
 
 .bioImage{
@@ -494,6 +505,15 @@ div h3.service-title{
     .services-list{
         border-right:none;
         width:100%;
+    }
+
+    .biography{
+        flex-direction: column;
+        gap:0
+    }
+
+    .biography-text{
+        height: auto;
     }
 
 }
