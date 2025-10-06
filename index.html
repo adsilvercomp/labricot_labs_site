@@ -32,6 +32,7 @@
     <nav class="nav-container">
         <a class="nav-item" href="#page-top">Home</a>
         <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="#services">Services</a>
     </nav> 
   </header>
 
@@ -65,7 +66,7 @@
   <!-- about page -->
   <section id="about" class="about">
     <section class="about-inner-container">
-      <h2 class="about-header">Who are we?</h2>
+      <h2 class="section-header">Who are we?</h2>
       <p class="bio">We are a boutique digital design agency that blends creativity with technology to help brands stand out and businesses run smarter. Our focus is simple: create digital experiences that not only capture attention but also drive lasting impact.
 
       <p class="bio">
@@ -80,36 +81,84 @@
       We’re always excited to collaborate with brands and organizations that are ready to create, grow, and innovate.
       </p>
       <div class="about-space"></div>
-      <h2 class="about-header"> Who we've worked with</h2>
-      <section class="partner-container">
-        <!-- desktop view -->
-         <div class="partner-desktop-view">
-          <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo"/>
-          <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo"/>
-          <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo"/>
-          <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis Channel Logo"/>
-          <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen Logo"/>
-          <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media Logo"/>
-        </div>
+     
+        <!-- biographical blurb -->
+    <section class="biography">
+      <img class="bioImage" src="./assets/images/head_shot.png"/>
+      <h4>Aaron Silverstein <br/> Founder & Principle Consultant </h4>
+    </section>
+      <div class="about-space"></div>
+    </section>     
+  </section>
 
-        <!-- mobile view -->
-        <div class="partner-mobile-view">
-          <div class="mini-row">
+  <!-- services page -->
+  <section id="services" class="services">
+    <section class="services-inner-container">
+      <h2 class="section-header"> Services </h2>
+      <section class="services-outer-container">
+        <ul class="services-list">
+          <li class="service-item active" data-service="creative-consultation">
+            Creative Consultation
+          </li>
+          <li class="service-item" data-service="project-proposal">
+            Project Proposal
+          </li>
+          <li class="service-item" data-service="ux-research-design">
+            UX Research & Design
+          </li>
+          <li class="service-item" data-service="web-mobile-development">
+            Web & Mobile Development
+          </li>
+          <li class="service-item" data-service="project-management">
+            Project Management
+          </li>
+          <li class="service-item" data-service="launch-distribution">
+            Launch & Distribution
+          </li>
+        </ul>
+
+        <!-- Service Description -->
+        <div class="service-description">
+          <h3 class="service-title" id="service-title">Creative Consultation</h3>
+          <p id="service-text">
+            We collaborate with you to define your brand vision and creative direction, 
+            ensuring every project starts with a strong conceptual foundation.
+          </p>
+        </div>
+      </section>
+    </section>
+
+      <section class="services-inner-container partner-outer-container">
+        <h2 class="section-header"> Who we've worked with</h2>
+        <section class="partner-container">
+          <!-- desktop view -->
+          <div class="partner-desktop-view">
             <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo"/>
             <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo"/>
-          </div>
-          <div class="mini-row">
             <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo"/>
-            <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis CHannel Logo"/>
-          </div>
-          <div class="mini-row">
+            <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis Channel Logo"/>
             <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen Logo"/>
             <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media Logo"/>
           </div>
-       </div>
+
+          <!-- mobile view -->
+          <div class="partner-mobile-view">
+            <div class="mini-row">
+              <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo"/>
+              <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo"/>
+            </div>
+            <div class="mini-row">
+              <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo"/>
+              <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis CHannel Logo"/>
+            </div>
+            <div class="mini-row">
+              <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen Logo"/>
+              <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media Logo"/>
+            </div>
+        </div>
+        </section>
       </section>
     </section>
-     
   </section>
 
   <!-- footer -->
@@ -122,5 +171,6 @@
         <a href="tel:+19733033570">(973)-303-3570</a>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
