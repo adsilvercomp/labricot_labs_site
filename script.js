@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "ux-research-design": {
       title: "UX Research & Design",
-      text: "Every successful project begins with great research. Through user research, journey mapping, and iterative design, we uncover what your audience truly needs — and build interfaces that feel effortless to use. From wireframes to high-fidelity prototypes, every decision is guided by strategy, empathy, and craft, ensuring that form and function work seamlessly together to bring your vision to life."
+      text: "Every successful project begins with great research. Through user research, journey mapping, and iterative design, we uncover what your audience truly needs — and build products that feel effortless to use. From wireframes to high-fidelity prototypes, every decision is guided by strategy, empathy, and craft, ensuring that form and function work seamlessly together to bring your vision to life."
     },
     "web-mobile-development": {
       title: "Web & Mobile Development",
