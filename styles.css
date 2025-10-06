@@ -24,7 +24,7 @@ a{
 }
 
 h1, h2, h3, h4, p, span, a, li {
-  font-family: 'Rubik'; /* headings use Rubik */
+  font-family: 'Outfit'; /* headings use Rubik */
   transform: scaleY(1.07); 
 }
 
@@ -131,7 +131,7 @@ a:hover{
 }
 
 .logo-text {
-    font-size: 77px;
+    font-size: 50px;
     color:black;
     font-weight:400;
     transform: scaleY(1.07); 
