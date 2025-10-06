@@ -95,7 +95,7 @@ a:hover{
     justify-content: center;
     align-items: flex-start;
     flex:1;
-    height:100vh;
+    /* height:100vh; */
 }
 
 .logo-container{
@@ -110,7 +110,6 @@ a:hover{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height:100vh;
 }
 
 .homepage-image{
@@ -206,7 +205,6 @@ a:hover{
 
 /* ////////////// about page ////////////// */
 .about {
-    height:100vh;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -259,7 +257,6 @@ a:hover{
 
 /* ////////////// services page ////////////// */
 .services {
-    height:100vh;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -295,14 +292,14 @@ a:hover{
   width: 35%;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid var(--text-color);
+  border-right: 1px solid black;
   padding-left: 25px;
 }
 
 .service-item {
   font-size: 18px;
   height:50px;
-  color: black;
+  color: var(--text-color);
   cursor: pointer;
   transition: all 0.2s ease;
   position: relative;
@@ -310,10 +307,13 @@ a:hover{
   align-items: center;
 }
 
+p#service-text{
+    color: var(--text-color);
+}
 
 div h3.service-title{
     font-size:22px;
-    font-weight: normal;
+    font-weight: bold;
     margin-top:0px;
 }
 
@@ -343,8 +343,7 @@ div h3.service-title{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* padding-top: 5px; */
-  color: black;
+  color: var(--text-color);
 }
 
 .service-description h3 {
@@ -380,7 +379,6 @@ div h3.service-title{
     }
     .nav-container{
         align-self: center;
-        /* width:var(--page-margin); */
         justify-content: space-around;
         align-items: center;
         flex:1;
@@ -438,10 +436,6 @@ div h3.service-title{
         height:90vw;
         width: auto;
         border-radius: 10px;
-    }
-
-    .about{
-        height: 150vh;
     }
 
     .partner-container{
