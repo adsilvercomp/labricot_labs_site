@@ -364,6 +364,23 @@ div h3.service-title{
     margin-top:75px;
 }
 
+.book-button{
+    background-color: var(--text-color);
+    color:white;
+    height: 20px;
+    width: fit-content;
+    display:flex;
+    text-align: center;
+    padding:12px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.book-button:hover{
+    background-color: black;
+    color: white;
+}
 
 /* media queries */
 @media (max-width: 1468px) {
