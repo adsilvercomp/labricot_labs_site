@@ -318,23 +318,26 @@ div h3.service-title{
 }
 
 .service-item:hover {
-  color: var(--text-color);
+  color: black;
 }
 
 .service-item.active {
-  color: var(--text-color);
+  color: var(--text-color)
 }
+
 
 .service-item.active::before {
   content: "";
   position: absolute;
-  left: -25px;
+  left: -30px; /* adjust as needed */
   top: 50%;
   transform: translateY(-50%);
-  width: 10px;
-  height: 10px;
-  background-color: var(--text-color);
-  border-radius: 50%;
+  width: 20px;  /* adjust to your image size */
+  height: 20px;
+  background-image: url("./assets/images/L'abricot_cut_out.png");
+  background-size: contain;   /* scales image to fit */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* RIGHT SIDE: SERVICE DESCRIPTION */
@@ -447,7 +450,7 @@ div h3.service-title{
 
     .partner-mobile-view{
         flex-direction: column;
-
+        gap:26px;
     }
 
     .partner-desktop-view{
