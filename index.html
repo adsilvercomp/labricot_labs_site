@@ -4,164 +4,212 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="L'abricot Labs is a boutique digital design agency blending creativity and technology to elevate brands and streamline businesses.">
-  <meta property="og:title" content="L'abricot Labs" />
+
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="L'abricot Labs | Boutique Digital Design Agency" />
   <meta property="og:description" content="Boutique digital design agency blending creativity and technology." />
-  <meta property="og:image" content="https://labricotlabs.com/assets/images/social-preview.png" />
+  <meta property="og:image" content="https://labricotlabs.com/assets/images/L'abricot_Labs.png" />
   <meta property="og:type" content="website" />
   <meta property="og:image:alt" content="L'abricot Labs digital design agency preview">
-  <!-- this url needs to be added here -->
   <meta property="og:url" content="https://labricotlabs.com/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="L'abricot Labs">
+  <meta name="twitter:description" content="Boutique digital design agency blending creativity and technology.">
+  <meta name="twitter:image" content="https://labricotlabs.com/assets/images/L'abricot_Labs.png">
+
   <title>L'abricot Labs | Boutique Digital Design Agency</title>
-    <!-- Import fonts -->
+
+  <!-- Import fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="./favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+      {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://labricotlabs.com#organization",
+          "name": "L'abricot Labs",
+          "url": "https://labricotlabs.com",
+          "logo": "https://labricotlabs.com/assets/images/labricot-labs-logo.png",
+          "description": "L'abricot Labs is a boutique digital design agency blending creativity and technology to elevate brands and streamline businesses.",
+          "founder": {
+            "@type": "Person",
+            "name": "Aaron Silverstein"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-973-303-3570",
+            "contactType": "customer service",
+            "areaServed": "US"
+          }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://labricotlabs.com#service",
+          "name": "L'abricot Labs",
+          "url": "https://labricotlabs.com",
+          "image": "https://labricotlabs.com/assets/images/robot.png",
+          "description": "Boutique digital design agency specializing in UX design, web and mobile development, and creative strategy for mission-driven brands.",
+          "areaServed": "US",
+          "provider": {
+            "@id": "https://labricotlabs.com#organization"
+          },
+          "serviceType": [
+            "UX Research & Design",
+            "Creative Consultation",
+            "Web & Mobile Development",
+            "Project Management",
+            "Launch & Distribution"
+          ]
+        }
+      ]
+    }
+  </script>
 </head>
+
 <body id="page-top">
- 
+  <!-- Visually hidden H1 for SEO -->
+  <h1 class="visually-hidden">
+    L'abricot Labs — Boutique Digital Design Agency | UX Design, Web & Mobile Development
+  </h1>
+
   <!-- header -->
   <header class="header">
     <section class="header-logo-container">
       <div class="header-logo">
-          <img class="logo-image" src="./assets/images/L'abricot Labs.png" alt="L'abricot Labs logo">
-          <!-- <img class="logo-text" src="./assets/images/logo-text.svg"> -->
-            <h2 class="logo-text">L'abricot Labs</h2>
+        <img class="logo-image" src="./assets/images/L'abricot_Labs.png" alt="L'abricot Labs logo" loading="lazy">
+        <h2 class="logo-text">L'abricot Labs</h2>
       </div>
     </section>
     <nav class="nav-container">
-        <a class="nav-item" href="#page-top">Home</a>
-        <a class="nav-item" href="#about">About</a>
-        <a class="nav-item" href="#services">Services</a>
-    </nav> 
+      <a class="nav-item" href="#page-top">Home</a>
+      <a class="nav-item" href="#about">About</a>
+      <a class="nav-item" href="#services">Services</a>
+    </nav>
   </header>
 
   <!-- home page -->
   <section id="home" class="home">
     <section class="outer-container">
-        <!-- left side of home screen -->
-        <section class="left-container vertical-center">
-            <div class="logo-container">
-                <img class="logo-image" src="./assets/images/L'abricot Labs.png" alt="L'abricot Labs logo">
-                <!-- <img class="logo-text" src="./assets/images/logo-text.svg"> -->
-                 <h1 class="logo-text">L'abricot Labs</h1>
-            </div>
-            <div class="contact-container">
-                <div class="contact-item">
-                    <a href="mailto:labricotlabs@gmail.com">labricotlabs@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <a href="tel:+19733033570">(973)-303-3570</a>
-                </div>
-            </div>
-        </section>
-        
-        <div class="homepage-image-container vertical-center">
-            <img class="homepage-image"  src="./assets//images/sketch2.png" alt="robot-sketch-image"/>
+      <section class="left-container vertical-center">
+        <div class="logo-container">
+          <img class="logo-image" src="./assets/images/L'abricot_Labs.png" alt="L'abricot Labs logo" loading="lazy">
+          <p class="logo-text">L'abricot Labs</p>
         </div>
+        <div class="contact-container">
+          <div class="contact-item">
+            <a href="mailto:labricotlabs@gmail.com">labricotlabs@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <a href="tel:+19733033570">(973)-303-3570</a>
+          </div>
+        </div>
+      </section>
+      <div class="homepage-image-container vertical-center">
+        <img class="homepage-image" src="./assets/images/robot.png" alt="robot sketch illustration" loading="lazy" />
+      </div>
     </section>
   </section>
-
 
   <!-- about page -->
   <section id="about" class="about">
     <section class="about-inner-container">
       <h2 class="section-header">Who are we?</h2>
-      <p class="bio">We are a boutique digital design agency that blends creativity with technology to help brands stand out and businesses run smarter. Our focus is simple: create digital experiences that not only capture attention but also drive lasting impact.
 
       <p class="bio">
-      Over the years, we’ve had the privilege of collaborating with companies across media, technology, and consumer industries, designing, building, and managing products that elevate their presence and streamline their workflows.
+        We are a boutique digital design agency that blends creativity with technology to help brands stand out and businesses run smarter. Our focus is simple: create digital experiences that not only capture attention but also drive lasting impact.
       </p>
 
       <p class="bio">
-      Our work is rooted in collaboration, curiosity, and craft. Whether it’s launching a new product, reimagining a user experience, or designing tools that make teams more efficient, we thrive on helping our partners bring bold ideas to life.
+        Over the years, we’ve had the privilege of collaborating with companies across media, technology, and consumer industries, designing, building, and managing products that elevate their presence and streamline their workflows.
       </p>
-  
+
       <p class="bio">
-      We’re always excited to collaborate with brands and organizations that are ready to create, grow, and innovate.
+        Our work is rooted in collaboration, curiosity, and craft. Whether it’s launching a new product, reimagining a user experience, or designing tools that make teams more efficient, we thrive on helping our partners bring bold ideas to life.
       </p>
-    
-     
-        <!-- biographical blurb -->
+
+      <p class="bio">
+        We’re always excited to collaborate with brands and organizations that are ready to create, grow, and innovate.
+      </p>
+
+      <!-- biographical blurb -->
       <section class="biography">
         <section class="biography-image">
-          <img class="bioImage" src="./assets/images/head_shot.png"/>
-          <h4 class="bio-image-text">Aaron Silverstein <br/> <span class="ital">Founder & Principle Consultant </span></h4>
+          <img class="bioImage" src="./assets/images/head_shot.png" alt="Aaron Silverstein portrait" loading="lazy"/>
+          <h3 class="bio-image-text">
+            Aaron Silverstein<br/>
+            <span class="ital">Founder & Principal Consultant</span>
+          </h3>
         </section>
-        <p class="biography-text">Aaron is a product strategist with a background in UX design, research, and software development, who has led digital projects for global brands and startups alike. He started L’abricot Labs with a team of designers and engineers to help mission-driven businesses turn bold ideas into impactful products.</p>
+        <p class="biography-text">
+          Aaron is a product strategist with a background in UX design, research, and software development, who has led digital projects for global brands and startups alike. He started L’abricot Labs with a team of designers and engineers to help mission-driven businesses turn bold ideas into impactful products.
+        </p>
       </section>
-    </section>     
+    </section>
   </section>
 
   <!-- services page -->
   <section id="services" class="services">
     <section class="services-inner-container">
-      <h2 class="section-header"> Services </h2>
+      <h2 class="section-header">Services</h2>
+
       <section class="services-outer-container">
         <ul class="services-list">
-          <li class="service-item active" data-service="creative-consultation">
-            Creative Consultation
-          </li>
-          <li class="service-item" data-service="project-proposal">
-            Project Proposal
-          </li>
-          <li class="service-item" data-service="ux-research-design">
-            UX Research & Design
-          </li>
-          <li class="service-item" data-service="web-mobile-development">
-            Web & Mobile Development
-          </li>
-          <li class="service-item" data-service="project-management">
-            Project Management
-          </li>
-          <li class="service-item" data-service="launch-distribution">
-            Launch & Distribution
-          </li>
+          <li class="service-item active" data-service="creative-consultation">Creative Consultation</li>
+          <li class="service-item" data-service="project-proposal">Project Proposal</li>
+          <li class="service-item" data-service="ux-research-design">UX Research & Design</li>
+          <li class="service-item" data-service="web-mobile-development">Web & Mobile Development</li>
+          <li class="service-item" data-service="project-management">Project Management</li>
+          <li class="service-item" data-service="launch-distribution">Launch & Distribution</li>
         </ul>
 
-        <!-- Service Description -->
         <div class="service-description">
           <h3 class="service-title" id="service-title">Creative Consultation</h3>
           <p id="service-text">
-            We collaborate with you to define your brand vision and creative direction, 
-            ensuring every project starts with a strong conceptual foundation.
+            We collaborate with you to define your brand vision and creative direction, ensuring every project starts with a strong conceptual foundation.
           </p>
-          <a  target=”_blank” class="book-button" href="https://calendly.com/labricotlabs/30min">Book a Creative Consultation</a>
+          <a target="_blank" rel="noopener" class="book-button" href="https://calendly.com/labricotlabs/30min">Book a Creative Consultation</a>
         </div>
       </section>
     </section>
 
-      <section class="services-inner-container partner-outer-container">
-        <h2 class="section-header"> Who we've worked with</h2>
-        <section class="partner-container">
-          <!-- desktop view -->
-          <div class="partner-desktop-view">
-            <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo"/>
-            <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo"/>
-            <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo"/>
-            <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis Channel Logo"/>
-            <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen Logo"/>
-            <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media Logo"/>
-          </div>
-
-          <!-- mobile view -->
-          <div class="partner-mobile-view">
-            <div class="mini-row">
-              <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo"/>
-              <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo"/>
-            </div>
-            <div class="mini-row">
-              <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo"/>
-              <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis CHannel Logo"/>
-            </div>
-            <div class="mini-row">
-              <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen Logo"/>
-              <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media Logo"/>
-            </div>
+    <section class="services-inner-container partner-outer-container">
+      <h2 class="section-header">Who We've Worked With</h2>
+      <section class="partner-container">
+        <!-- desktop view -->
+        <div class="partner-desktop-view">
+          <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo" loading="lazy"/>
+          <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo" loading="lazy"/>
+          <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo" loading="lazy"/>
+          <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis Channel logo" loading="lazy"/>
+          <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen logo" loading="lazy"/>
+          <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media logo" loading="lazy"/>
         </div>
-        </section>
+
+        <!-- mobile view -->
+        <div class="partner-mobile-view">
+          <div class="mini-row">
+            <img class="partner-logo" src="./assets/images/partner_carousel/disney.png" alt="Disney logo" loading="lazy"/>
+            <img class="partner-logo" src="./assets/images/partner_carousel/lexus.png" alt="Lexus logo" loading="lazy"/>
+          </div>
+          <div class="mini-row">
+            <img class="partner-logo" src="./assets/images/partner_carousel/nbc.png" alt="NBC logo" loading="lazy"/>
+            <img class="partner-logo" src="./assets/images/partner_carousel/tennis.png" alt="Tennis Channel logo" loading="lazy"/>
+          </div>
+          <div class="mini-row">
+            <img class="partner-logo" src="./assets/images/partner_carousel/nielsen.png" alt="Nielsen logo" loading="lazy"/>
+            <img class="partner-logo" src="./assets/images/partner_carousel/outfront.png" alt="Outfront Media logo" loading="lazy"/>
+          </div>
+        </div>
       </section>
     </section>
   </section>
@@ -169,13 +217,14 @@
   <!-- footer -->
   <footer class="footer-contact-container">
     <div class="header-contact-item">
-        <a href="mailto:labricotlabs@gmail.com">labricotlabs@gmail.com</a>
+      <a href="mailto:labricotlabs@gmail.com">labricotlabs@gmail.com</a>
     </div>
     <span class="contact-divider">|</span>
     <div class="contact-item">
-        <a href="tel:+19733033570">(973)-303-3570</a>
+      <a href="tel:+19733033570">(973)-303-3570</a>
     </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
