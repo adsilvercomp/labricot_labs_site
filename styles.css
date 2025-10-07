@@ -18,6 +18,10 @@ body{
     min-width: 375px;
 }
 
+#home, #about, #services {
+  scroll-margin-top: 120px; /* height of your fixed header */
+}
+
 a{
     color:var(--text-color);
     text-decoration-line: none;
