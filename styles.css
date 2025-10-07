@@ -49,7 +49,7 @@ a:hover{
   justify-content: flex-end;
   align-items: flex-end;
 
-  width: calc(100% - 300px); /* responsive width */
+  width: calc(100% - 298px); /* responsive width */
   max-width: var(--max-width);         /* cap the size */
 }
 
