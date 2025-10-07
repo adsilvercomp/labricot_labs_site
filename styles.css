@@ -19,7 +19,7 @@ body{
 }
 
 #home, #about, #services {
-  scroll-margin-top: 120px; /* height of your fixed header */
+  scroll-margin-top: 100px; /* height of your fixed header */
 }
 
 a{
