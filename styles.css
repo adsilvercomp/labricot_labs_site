@@ -38,7 +38,7 @@ a:hover{
 
 .header{
   background-color: white;
-  height: 150px;
+  height: 120px;
   position: fixed;
   top: 0;
   left: 50%;                  /* push to the middle */
@@ -53,9 +53,6 @@ a:hover{
   max-width: var(--max-width);         /* cap the size */
 }
 
-header.header{
-    height: 150px;
-}
 
 .nav-container{
     display: flex;
