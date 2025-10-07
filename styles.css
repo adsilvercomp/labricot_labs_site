@@ -19,7 +19,7 @@ body{
 }
 
 #home, #about, #services {
-  scroll-margin-top: 100px; /* height of your fixed header */
+  scroll-margin-top: 150px; /* height of your fixed header */
 }
 
 a{
@@ -421,6 +421,9 @@ div h3.service-title{
 }
 
 @media (max-width: 1350px) {
+    #home, #about, #services {
+       scroll-margin-top: 100px; /* height of your fixed header */
+    }
     .nav-container{
         border-bottom: none;
     }
