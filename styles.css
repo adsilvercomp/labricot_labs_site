@@ -1,8 +1,13 @@
+
 :root{
     --text-color:#ED4C2D;
     --max-width:1500px;
     --min-width:375px;
     --page-margin:150px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body{
