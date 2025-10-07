@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "launch-distribution": {
       title: "Launch & Distribution",
-      text: "A great product deserves a smart launch strategy. We help you select and execute the distribution approach that makes the most sense for your audience and goals — whether that’s viral marketing campaigns for consumer products, direct sales to individual customers, or targeted enterprise deployments. From launch planning to post-release optimization, we ensure your product reaches the right people at the right time, maximizing engagement, adoption, and long-term impact."
+      text: "A great product deserves a smart distribution strategy. We help you select and execute the distribution approach that makes the most sense for your audience and goals — whether that’s viral marketing campaigns for consumer products, direct sales to individual customers, or targeted enterprise deployments. From launch planning to post-release optimization, we ensure your product reaches the right people at the right time, maximizing engagement, adoption, and long-term impact."
     }
   };
 
