@@ -58,4 +58,14 @@ document.addEventListener("DOMContentLoaded", () => {
     firstService.classList.add("active");
     updateService(firstService.dataset.service);
   }
+  function scrollToSection(event, id) {
+  event.preventDefault();
+  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
+
+// page navigation
+['home', 'about', 'services'].forEach(id => {
+    document.getElementById(`${id}-nav-button`).onclick = (event) => scrollToSection(event, id);
+});
+
 });
