@@ -39,33 +39,54 @@ document.addEventListener("DOMContentLoaded", () => {
     serviceText.textContent = text || "";
   }
 
-  // Set up click event listeners
+  // Set up click event listeners for service items
   serviceItems.forEach((item) => {
     item.addEventListener("click", () => {
-      // Remove active state from all
       serviceItems.forEach((i) => i.classList.remove("active"));
-      // Add active to clicked one
       item.classList.add("active");
-      // Update content
       const key = item.dataset.service;
       updateService(key);
     });
+
+    // Optional: keyboard accessibility for service items
+    item.addEventListener("keydown", (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        item.click();
+      }
+    });
   });
 
-  // Initialize default state (first service active)
+  // Initialize default state
   const firstService = document.querySelector(".service-item.active") || serviceItems[0];
   if (firstService) {
     firstService.classList.add("active");
     updateService(firstService.dataset.service);
   }
+
+  // Smooth scroll with fixed header offset
   function scrollToSection(event, id) {
-  event.preventDefault();
-  document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-}
+    event.preventDefault();
+    const section = document.getElementById(id);
+    const headerOffset = 120; // adjust for your header height
+    const elementPosition = section.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - headerOffset;
 
-// page navigation
-['home', 'about', 'services'].forEach(id => {
-    document.getElementById(`${id}-nav-button`).onclick = (event) => scrollToSection(event, id);
-});
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth"
+    });
+  }
 
+  // Page navigation
+  ['home', 'about', 'services'].forEach(id => {
+    const btn = document.getElementById(`${id}-nav-button`);
+
+    btn.addEventListener("click", (event) => scrollToSection(event, id));
+    btn.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        scrollToSection(event, id);
+      }
+    });
+  });
 });

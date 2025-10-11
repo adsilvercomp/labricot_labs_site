@@ -25,6 +25,7 @@ body{
   scroll-margin-top: 150px; /* height of your fixed header */
 }
 
+
 a{
     color:var(--text-color);
     text-decoration-line: none;
@@ -420,6 +421,14 @@ div h3.service-title{
       clip-path: inset(100%);
       clip: rect(0 0 0 0);
       overflow: hidden;
+}
+
+button.service-button {
+   background-color: white;
+   border:none;
+   font-size: inherit;
+   color: inherit;
+   cursor: pointer
 }
 
 @media (max-width: 1350px) {
