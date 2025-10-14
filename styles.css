@@ -357,7 +357,7 @@ div h3.service-title{
 .service-item.active::after {
   content: "";
   position: absolute;
-  left: -30px; /* adjust as needed */
+  left: -25px; /* adjust as needed */
   top: 22%;
   transform: translateY(-50%);
   width: 20px;  /* adjust to your image size */
