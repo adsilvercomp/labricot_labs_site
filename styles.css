@@ -31,7 +31,7 @@ a{
     text-decoration-line: none;
 }
 
-h1, h2, h3, h4, p, span, a, li {
+h1, h2, h3, h4, p, span, a, li, button {
   font-family: 'Outfit'; /* headings use Rubik */
   transform: scaleY(1.07); 
 }
@@ -243,6 +243,10 @@ a:hover{
     justify-content: flex-start;
     max-width: var(--max-width);
     align-self: center;
+}
+
+.about-inner-container{
+    margin-bottom:75px;
 }
 
 .section-header{
