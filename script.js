@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "ux-systems-design": {
       title: "UX Design & Systems Thinking",
-      text: "We design user experiences and interface systems that support clarity, usability, and long-term growth. Our work emphasizes consistency, accessibility, and thoughtful interaction design across digital platforms. Design decisions are made in close alignment with engineering and product strategy to ensure durability and cohesion.lowing our creative consultation, we’ll craft a detailed project proposal tailored to your specific goals and challenges. This proposal outlines our recommended approach, deliverables, timeline, and estimated cost — giving you a clear picture of how we’ll bring your vision to life. It’s both a creative blueprint and a practical plan, designed to align expectations and ensure we start our collaboration with shared clarity and confidence."
+      text: "We design user experiences and interface systems that support clarity, usability, and long-term growth. Our work emphasizes consistency, accessibility, and thoughtful interaction design across digital platforms. Design decisions are made in close alignment with engineering and product strategy to ensure durability and cohesion."
     },
     "web-mobile-development": {
       title: "Web & Mobile App Development",
