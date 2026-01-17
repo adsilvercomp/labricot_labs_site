@@ -294,6 +294,8 @@ a:hover{
     justify-content: flex-start;
     scroll-margin-top: 175px; /* equal to header height */
     max-width: var(--max-width);
+    height: 85vh;
+    margin-bottom: 100px;
 }
 
 .services-inner-container{
@@ -301,6 +303,7 @@ a:hover{
     flex-direction:column;
     width:100%;
     align-self: center;
+
 }
 
 /* SERVICES SECTION LAYOUT */
